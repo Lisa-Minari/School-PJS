@@ -1,10 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 10%; 
+    margin-top: 0%;
 }
 header {
-    background-color: #d3d3d3;
+    background-color: #716969;
     padding: 10px;
     text-align: center;
 }
@@ -21,6 +21,12 @@ header img {
     display: inline-block;
     padding: 14px 20px;
     text-decoration: none;
+    font-family:'Lucida Grande';
+    font-size:large;
+}
+.box {
+    margin: 20px;
+    text-align: left;
 }
 .content {
     padding: 20px;
@@ -41,9 +47,48 @@ header img {
 .article {
     width: 32%;
 }
-footer {
-    background-color: #4b0036;
-    color: white;
-    padding: 10px;
+.bordered-gallery {
+    border: 4px solid rgb(0, 0, 0);
+    padding: 20px; /* Aggiungi del padding se desideri spazio extra tra le immagini e il bordo */
+    padding-right: 150px ;
+
+
+.gallery img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.image-box {
+    width: 30%; /* Ogni immagine occupa il 30% della larghezza del container */
     text-align: center;
+}
+
+.custom-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: #f0f8ff;
+    padding: 20px;
+}
+
+.custom-image-box {
+    width: 30%;
+    text-align: center;
+    flex: 1;
+}
+
+.custom-image-box img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.custom-image-box p {
+    font-size: 14px;
+    color: #333;
+    text-align: right;
 }
