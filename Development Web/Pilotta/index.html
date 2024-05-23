@@ -1,59 +1,91 @@
 <!DOCTYPE html>
 <html lang="it">
-<
-
-head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/style.css">
     <title>Complesso della Pilotta</title>
 </head>
 <body>
-    <header>
-        <img src="src/img/pilotta.png" width="900" height="auto" alt="pilota" style="display: block; margin-left: 0;">
-        <p style="text-align: right;"> <b>Complesso della Pilotta</b></p>
+    <header class="header">
+        <img src="src/img/pilotta.png" alt="pillota">
+        <h1>Complesso della Pilotta</h1>
     </header>
 
-    <img src="src/img/galleriaNazionale.png"  width="1185" height="auto" alt="gallertia">
-    <nav class="navbar">
-        <a href="#quadro-del-giorno">QUADRO DEL GIORNO</a>
-        <a href="#informazioni">INFORMAZIONI</a>
-        <a href="#galleria">GALLERIA</a>
-        <a href="#lista-dei-dipinti">LISTA DEI DIPINTI</a>
-        <a href="#contatti">CONTATTI</a>
-    </nav>
-    <div class="content">
-        <p style="font-family: 'Lucida Grande'; font-size: large;">
-            Tra la fine del Seicento e gli inizi del Settecento la celebre raccolta di opere d’arte, oggetti rari e preziosi, dipinti e monete di proprietà dei Farnese e trasferita da Roma a Parma a metà del XVII secolo era esposta in un grande salone del Palazzo della Pilotta. Buona parte della raccolta viene trasferita a Napoli nel 1734 da Carlo di Borbone, ultimo discendente dei Farnese al governo della città emiliana, fatta eccezione per dipinti celebri quali La guarigione del cieco nato di El Greco e il Ritratto di Paolo III Farnese di Sebastiano del Piombo.
+    <div>
+        <img src="src/img/galleriaNazionale.png"  width="1185" height="auto" alt="galleria">
+    </div>
+    
+    <div>
+        <nav class="navbar">
+            <a href="#quadro-del-giorno">QUADRO DEL GIORNO</a>
+            <a href="#informazioni">INFORMAZIONI</a>
+            <a href="#galleria">GALLERIA</a>
+            <a href="#lista-dei-dipinti">LISTA DEI DIPINTI</a>
+            <a href="#contatti">CONTATTI</a>
+        </nav>
+    </div>
+
+    <div>
+        <p style=" font-size: large;">
+            Tra la fine del Seicento e gli inizi del Settecento la celebre raccolta di opere d’arte, 
+            oggetti rari e preziosi, dipinti e monete di proprietà dei Farnese e trasferita da Roma 
+            a Parma a metà del XVII secolo era esposta in un grande salone del Palazzo della Pilotta. 
+            Buona parte della raccolta viene trasferita a Napoli nel 1734 da Carlo di Borbone, ultimo 
+            discendente dei Farnese al governo della città emiliana, fatta eccezione per dipinti celebri 
+            quali La guarigione del cieco nato di El Greco e il Ritratto di Paolo III Farnese di Sebastiano 
+            del Piombo.
         </p>
-        <div style="text-align: right;">
-            <h3 style="color: red; font-family: 'Lucida Grande'; font-size: large;">GALLERY</h3>
-        </div>
+    </div>
+
+    <div>
+        <h3 class="h3-gallery">GALLERIA</h3>
         <div class="bordered-gallery" >
             <img src="src/img/img1.jpg" alt="Quadro 1">
             <img src="src/img/img2.jpg" alt="Quadro 2">
         </div>
-       
-        <div class="custom-container">
-            <div class="custom-image-box">
-                <img src="src/img/img1.jpg" width="auto" height="80px" alt="Immagine 1">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <img src="src/img/img1.jpg" alt="img1">
+            <div class="text">
+                <h2>Titolo 1</h2>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            </div>
-            <div class="custom-image-box">
-                <img src="src/img/img2.jpg" width="auto" height="80px" alt="Immagine 2">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            </div>
-            <div class="custom-image-box">
-                <img src="src/img/img3.jpg" width="auto" height="80px" alt="Immagine 3">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                </p>
             </div>
         </div>
+    
+        <div class="box">
+            <img src="src/img/img2.jpg" alt="img2">
+            <div class="text">
+                <h2>Titolo 2</h2>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                </p>
+            </div>
+            
+        </div>
+    
+        <div class="box">
+            <img src="src/img/img3.jpg" alt="img3">
+            <div class="text">
+                <h2>Titolo 3</h2>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                </p>
+            </div>
+        </div>
+    </div>
+    
+
 </body>
 </html>
 
