@@ -71,7 +71,6 @@ body {
 }
 
 .box img {
-    width: 30%; 
+    width: 90%; 
     height: auto;
-    flex-shrink: 0;
 }

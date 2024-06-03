@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --hd-color: #0e0524;
+    --main-color: #d4af37;
+}
+
+.text{
+    margin-left: 2%;
+}
+
+.header {
+    background: var(--main-color);
+    position: fixed;
+    top: 0;
+    display: flex;
+    z-index: 100;
+    color: white;
+    width: 100%;
+    height: 13rem;
+    align-items: center;
+}
+
+.header h1 {
+    margin-left: 59.5rem;
+    font-size: 4rem;
+}
+
+.main-img{
+    width: 100%;
+    display: flex;
+}
+
+.navbar {
+    text-align: center;
+    background-color: var(--main-color);  
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size:small;
+}
+
+.h3-gallery {
+    font-size: large;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.bordered-gallery {
+    border: 4px solid rgb(0, 0, 0);
+    padding: 20px; 
+    padding-right: 150px;vh
+}
+
+.bordered-gallery img {
+    height: auto;
+    max-width: 50%;
+}
+
+.bordered-gallery p{
+    text-align: right;
+}
+
+.container {
+    margin-top: 10px;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap; 
+    margin-top: 0%;
+}
+
+.box {
+    flex: 0 0 calc(33.333% - 40px); 
+    display: flex;
+    font-size: medium;
+    align-items: flex-start;
+    margin: 20px;
+    text-align: start;
+}
+
+.box img {
+    height: 90%;
+    width: 16rem;
+}
+html {
+    font-size: 62%;
+    overflow-x: hidden;
+}
+
+.header {
+    background: var(--main-color);
+    position: fixed;
+    top: 0;
+    display: flex;
+    z-index: 100;
+    color: white;
+    width: 100%;
+    height: 13rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    font-size: 4rem;
+    color: red;
+}
+
+.container {
+    margin-top: 14rem;
+    background-color:rgb(181, 102, 102);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 2%;
+}
+
+td {
+    padding: 20px;
+    vertical-align: top;
+}
+
+td img {
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: medium;
+}
+
+h1 {
+    color: red;
+}
+
+li {
+    font-size: large;
+    text-align: center;
+}
+
+.container2 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 0%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0e0524;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.artwork {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.artwork img {
+    max-width: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.description2 {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.container-2 {
+    display: flex;
+    align-items: center; /* Allinea il contenuto verticalmente al centro */
+    margin: 20px;
+    margin-bottom: 0%;
+}
+/* Modifica la barra di scorrimento */
+::-webkit-scrollbar {
+    width: 12px; /* Larghezza della barra di scorrimento */
+}
+
+/* Modifica la traccia della barra di scorrimento */
+::-webkit-scrollbar-track {
+    background: #8b5252; /* Colore di sfondo della traccia */
+}
+
+/* Modifica il cursore della barra di scorrimento */
+::-webkit-scrollbar-thumb {
+    background: #5b2323;/* Colore del cursore */
+    border-radius: 6px; /* Angoli arrotondati del cursore */
+}
+
+/* Cambia il colore del cursore quando passa sopra */
+::-webkit-scrollbar-thumb:hover {
+    background: #0e0524; /* Nuovo colore del cursore */
+}
